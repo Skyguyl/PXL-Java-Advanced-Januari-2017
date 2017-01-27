@@ -1,0 +1,57 @@
+2016-39-03 12:39:052 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 0472AF3A522F8
+2016-12-22 10:12:014 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 043COA3A522F84
+2016-18-23 10:18:033 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04F3AF3A52280
+2016-13-03 10:13:030 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 040CB3A522F81
+2016-30-04 10:30:047 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 043FC3A522F80
+2016-24-07 22:24:028 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 045DAAAA053F81
+2016-40-08 14:40:052 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 04E8COAA053F80
+2016-41-08 14:41:018 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 04E8COAA053F80
+2016-42-08 14:42:027 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04BDDAA053F80
+2016-43-08 14:43:025 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04BAAAA053F80
+2016-56-09 12:56:053 ERROR be.alfapay.alfaplatform.server.rest.merchant.MerchantController CATCHED EXCEPTION! add or udpate Merchant
+2016-11-09 17:11:030 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 0460B93A522F80
+2016-12-09 17:12:007 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 0460B93A522F80
+2016-13-09 17:13:056 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager No card for cardId: 0460B93A522F80
+2016-10-13 17:10:008 ERROR be.alfapay.alfaplatform.server.rest.merchant.MerchantController CATCHED EXCEPTION! add or udpate Merchant
+2016-00-14 14:00:004 ERROR be.alfapay.alfaplatform.server.rest.merchant.MerchantController CATCHED EXCEPTION! add or udpate Merchant
+2016-32-20 11:32:038 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 0447A
+2016-18-20 17:18:050 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04B514AA053F8414AA053F84
+2016-36-21 16:36:018 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04B55AA053F80
+2016-19-07 15:19:021 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04ABFAA053F80
+2016-08-07 17:08:047 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1481120021148
+2016-34-08 08:34:057 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 045CBAA053F80
+2016-35-08 08:35:005 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 045
+2016-48-08 08:48:045 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 044BAFAA053F8
+2016-49-08 08:49:027 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... F
+2016-51-08 08:51:059 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-52-08 08:52:020 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-52-08 08:52:033 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-52-08 08:52:046 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-52-08 08:52:058 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-53-08 08:53:027 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-53-08 08:53:052 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-06-08 09:06:030 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04E1AAA053F80
+2016-15-08 09:15:047 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 042EAAA053F80
+2016-16-08 09:16:015 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04B2AA053F80
+2016-25-08 09:25:009 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 04FD35F80
+2016-28-08 09:28:010 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-28-08 09:28:046 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-29-08 09:29:004 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-31-08 09:31:028 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-31-08 09:31:048 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-32-08 09:32:007 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-32-08 09:32:040 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-32-08 09:32:058 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-33-08 09:33:028 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 0
+2016-33-08 09:33:050 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-34-08 09:34:010 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-34-08 09:34:024 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-34-08 09:34:048 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-35-08 09:35:012 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-35-08 09:35:032 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-35-08 09:35:047 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 1
+2016-37-10 12:37:006 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 0429A9AAO
+2016-07-16 10:07:029 ERROR be.alfapay.alfaplatform.server.rest.giftcard.GiftCardManager Trying with cardId... 0452FAA053F81
+2016-10-17 00:10:000 ERROR be.alfapay.alfaplatform.server.schedule.ExpiredGiftCardScheduler Scheduling expired cards error...
+2016-10-18 00:10:000 ERROR be.alfapay.alfaplatform.server.schedule.ExpiredGiftCardScheduler Scheduling expired cards error...
+2016-10-19 00:10:000 ERROR be.alfapay.alfaplatform.server.schedule.ExpiredGiftCardScheduler Scheduling expired cards error...

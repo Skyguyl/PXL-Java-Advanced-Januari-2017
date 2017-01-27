@@ -1,0 +1,14 @@
+Aantal INFO regels: 5431
+
+Aantal DEBUG regels: 3157
+
+Aantal WARN regels: 8
+
+Aantal ERROR regels: 57
+
+Sucessvolle logins: 2481
+
+Foute login pogingen: 60
+
+Meeste belasting tussen 9u en 10u
+
