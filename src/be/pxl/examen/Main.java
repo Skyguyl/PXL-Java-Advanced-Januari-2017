@@ -53,7 +53,7 @@ public class Main {
         }
 
         // Start parsing
-        logEntries = parseLogData(inputFolder);
+        logEntries = LogEntryFactory.parseInputFolder(inputPath);
 
         // Processing.
         Map<LogLevel, List<LogEntry>> logLevelMap = new LinkedHashMap<>();
@@ -92,7 +92,6 @@ public class Main {
         long peakValue = 0, currentPeak = 0;
 
         for (int i = 0; i < 24; i++) {
-
             final int searchHour = i;
 
             currentPeak = logEntries.stream()
@@ -103,7 +102,6 @@ public class Main {
                 peakValue = currentPeak;
                 peakHour = i;
             }
-
         }
 
         System.out.println("Peak hour -> " + peakHour);
@@ -118,43 +116,6 @@ public class Main {
 
         logOutputThread.start();
         errorOutputThread.start();
-    }
-
-    private static List<LogEntry> parseLogData(String inputFolder) {
-        List<LogEntry> logFile1Entries = new ArrayList<>();
-        List<LogEntry> logFile2Entries = new ArrayList<>();
-        List<LogEntry> logFile3Entries = new ArrayList<>();
-
-        // Parse logs.
-        Thread logFile1Thread = new LogReadThread(logFile1Entries, Paths.get(inputFolder, "system1.log"));
-        Thread logFile2Thread = new LogReadThread(logFile2Entries, Paths.get(inputFolder, "system2.log"));
-        Thread logFile3Thread = new LogReadThread(logFile3Entries, Paths.get(inputFolder, "system3.log"));
-
-        logFile1Thread.start();
-        logFile2Thread.start();
-        logFile3Thread.start();
-
-        // Wacht op de log files.
-        try {
-            logFile1Thread.join();
-            logFile2Thread.join();
-            logFile3Thread.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println("File1: " + logFile1Entries.size());
-        System.out.println("File2: " + logFile2Entries.size());
-        System.out.println("File3: " + logFile3Entries.size());
-
-        List<LogEntry> allLogs = new ArrayList<>();
-
-        // Merge lists.
-        logFile1Entries.forEach(allLogs::add);
-        logFile2Entries.forEach(allLogs::add);
-        logFile3Entries.forEach(allLogs::add);
-
-        return allLogs;
     }
 
     private static void makeDirectory(Path directoryPath) throws IOException {

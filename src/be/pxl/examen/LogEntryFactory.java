@@ -7,6 +7,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.stream.Stream;
 
 /**
  * Created by Daan Vankerkom on 27/01/2017.
@@ -52,6 +54,34 @@ public class LogEntryFactory {
                 messageData[0], // Package Class
                 logMessage // Message.
         );
+    }
+
+    public static List<LogEntry> parseInputFolder(Path folderLocation) {
+        List<LogEntry> allLogs = new CopyOnWriteArrayList<>();
+        List<Thread> threads = new ArrayList<>();
+
+        try(Stream<Path> paths = Files.walk(folderLocation)) {
+            // Make a new thread and push it onto a list.
+            paths.forEach(p -> {
+                Thread readThread = new LogReadThread(allLogs, p);
+                threads.add(readThread);
+                readThread.start(); // Start thread.
+            });
+
+        } catch (IOException e) {
+            // The folder seems not to exist.
+        }
+
+        // Wait for all threads.
+        threads.forEach(t -> {
+            try {
+                t.join();
+            } catch (InterruptedException e) {
+                // Do nothing.
+            }
+        });
+
+        return allLogs;
     }
 
     private static List<String> readLogFile(Path filePath) {
